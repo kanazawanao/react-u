@@ -208,6 +208,14 @@ console.log(secondPerson.name) // 'Max'
 ```
 
 ## Refreshing Array Functions
+- `map()`
+- `find()`
+- `findIndex()`
+- `filter()`
+- `reduce()`
+- `concat()`
+- `slice()`
+- `splice()`
 ```js
 const numbers = [1, 2, 3]
 const doubleNumArray = numbers.map((num) => {
