@@ -180,3 +180,29 @@ const numbers = [1, 2, 3]
 [num1, , num3] = numbers;
 console.log(num1, num3) // 1 3
 ```
+
+## Reference and Primitive Types Refresher
+- numbers, strings, booleans, these are so-called primitive types whenever you reassign or you store a varuable in another variable it will copy the value
+- objects and arrays are reference types
+```js
+const person = {
+  name: 'Max'
+}
+const secondPerson = person;
+console.log(secondPerson.name) // 'Max'
+person.name = 'Manu'
+console.log(secondPerson.name) // 'Manu'
+```
+- the reason for it is that it just copied the pointer and points to the exact same object in memory as person does
+- Therefore we will learn techniques to copy this in an immutable way which means we copy that by really copying the object and not just a pointer for that we can use this spread operator
+```js
+const person = {
+  name: 'Max'
+}
+const secondPerson = {
+  ...person
+};
+console.log(secondPerson.name) // 'Max'
+person.name = 'Manu'
+console.log(secondPerson.name) // 'Max'
+```
