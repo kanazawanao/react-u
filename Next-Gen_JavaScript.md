@@ -119,3 +119,42 @@ myMethod() {...}
 myMethod = () => {...}
 ```
 - the great advantage of this syntax is that since you use an arrow function as property value here you've got no problems with the `this` keyword
+
+## Spread & Rest Operators
+- Actually it's only one operator three dots
+### Spread
+- used to split up array elements OR object properties
+```js
+const newArray = [...oldArray, 1, 2]
+const newObjext = {...oldObject, newProp:5}
+```
+### Rest
+- used to merge a list of function arguments into an array
+```js
+function sortArgs(...args) {
+  return args.sort()
+}
+```
+
+```js
+// Spread
+const numbers = [1, 2, 3];
+const newNumbers = [...numbers, 4];
+console.log(newNumbers);
+
+const person = {
+  name: 'Max'
+};
+const newPerson = {
+  ...person,
+  age: 28
+}
+console.log(newPerson);
+
+// Rest
+const filter = (...args) => {
+  return args.filter(el => el === 1);
+}
+
+console.log(filter(1, 2, 3))
+```
