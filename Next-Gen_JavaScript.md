@@ -97,3 +97,25 @@ const person = new Person();
 person.printMyName();
 person.printGender();
 ```
+
+## Classes, Properties & Method
+- properties are like "variables attached to classes/ objects"
+- you can assign a property directly inside your class with myPropety equlas value
+- so you skip the constructor function call
+```js
+// ES6
+constructor() {
+  this.myProperty = 'value'
+}
+// ES7
+myProperty = 'value'
+```
+- methods are like "functions attached to classes/ objects"
+- use the syntax from the left where you set up a property and simply think of a method as a property which stores a functions as a value and then you end up with that
+```js
+// ES6
+myMethod() {...}
+// ES7
+myMethod = () => {...}
+```
+- the great advantage of this syntax is that since you use an arrow function as property value here you've got no problems with the `this` keyword
