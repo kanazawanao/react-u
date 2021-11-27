@@ -206,3 +206,13 @@ console.log(secondPerson.name) // 'Max'
 person.name = 'Manu'
 console.log(secondPerson.name) // 'Max'
 ```
+
+## Refreshing Array Functions
+```js
+const numbers = [1, 2, 3]
+const doubleNumArray = numbers.map((num) => {
+  return num * 2;
+});
+console.log(numbres); // [1, 2, 3]
+console.log(doubleNumArray); // [2, 4, 6]
+```
