@@ -56,3 +56,44 @@ import {smth} from 'utility.js'
 import {smth as Smth} from 'utility.js'
 import * as bundled from 'utility.js'
 ```
+
+## Classes
+- Classes are essentially blueprints for objects
+```js
+// class
+class Person {
+  // property
+  name = 'Max'
+  // method
+  call = () => {...}
+}
+// usage
+const myPerson = new Person()
+myPerson.call()
+console.log(myPerson.name)
+// inheritance
+class Person extends Master
+```
+- example
+```js
+class Human {
+  constructor() {
+    this.gender = 'male';
+  }
+  printGender() {
+    console.log(this.gender);
+  }
+}
+class Person extends Human {
+  constructor() {
+    super();
+    this.name = 'Max';
+  }
+  printMyName() {
+    console.log(this.name);
+  }
+}
+const person = new Person();
+person.printMyName();
+person.printGender();
+```
