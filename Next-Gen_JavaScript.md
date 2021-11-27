@@ -158,3 +158,25 @@ const filter = (...args) => {
 
 console.log(filter(1, 2, 3))
 ```
+
+## Destructing
+- Destructing allows you to easily extract array elements or objext properties and store them in variables
+- Destructing allows you to pull out single elements or properties and store them in variables for arrays and object
+### Array Destructing
+```js
+[a, b] = ['Heelo', 'Max']
+console.log(a) // Hello
+console.log(b) // Max
+```
+### Object Destructing
+```js
+{name} = {name: 'Max', age: 28}
+console.log(name) // Max
+console.log(age) //undefined
+```
+- ex
+```js
+const numbers = [1, 2, 3]
+[num1, , num3] = numbers;
+console.log(num1, num3) // 1 3
+```
