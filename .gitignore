@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/react-complete-guide/node_modules
+/react-complete-guide/.pnp
+/react-complete-guide.pnp.js
+
+# testing
+/react-complete-guide/coverage
+
+# production
+/react-complete-guide/build
+
+# misc
+/react-complete-guide.DS_Store
+/react-complete-guide.env.local
+/react-complete-guide.env.development.local
+/react-complete-guide.env.test.local
+/react-complete-guide.env.production.local
+
+/react-complete-guidenpm-debug.log*
+/react-complete-guideyarn-debug.log*
+/react-complete-guideyarn-error.log*
