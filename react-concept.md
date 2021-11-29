@@ -34,3 +34,5 @@ npx create-react-app react-complete-guide
 cd react-complete-guide
 yarn start
 ```
+- `App.js` is root Component which means it's the main Component being rendered here in our starting file in index JS.
+- A Component in React is just a JavaScript function
