@@ -43,3 +43,7 @@ yarn start
 - This concept is just called props instead of attributes and props simply stands for properties
 - We can set properties of our own custom components
 - Props allows you to make your component reusable, and it allows you to pass data from another component to this component
+
+## The consept of "Composition"
+- props.children is a reserved name and it will always be the content
+- props.children allows you to also create wrapper components which is a special type of component, you could say, which you also sometimes need.
