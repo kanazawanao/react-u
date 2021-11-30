@@ -36,3 +36,10 @@ yarn start
 ```
 - `App.js` is root Component which means it's the main Component being rendered here in our starting file in index JS.
 - A Component in React is just a JavaScript function
+
+## Passing Data via "Props"
+- We can pass data to the custom component by adding attribute
+- And inside of that component, we can then get access to all these attributes which might have been set on our custom component
+- This concept is just called props instead of attributes and props simply stands for properties
+- We can set properties of our own custom components
+- Props allows you to make your component reusable, and it allows you to pass data from another component to this component
