@@ -47,3 +47,10 @@ yarn start
 ## The consept of "Composition"
 - props.children is a reserved name and it will always be the content
 - props.children allows you to also create wrapper components which is a special type of component, you could say, which you also sometimes need.
+
+## First Summary
+### Component-Driven User Interface
+- Building Interactive & Scalable UIs
+### React Core Syntax & JSX
+- Working with Components
+- Working With Data
