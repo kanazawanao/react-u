@@ -54,3 +54,8 @@ yarn start
 ### React Core Syntax & JSX
 - Working with Components
 - Working With Data
+
+## Module Content
+- Handling Events
+- Updating the UI & Working with "State"
+- A Closer Look At Components & State
