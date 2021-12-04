@@ -59,3 +59,6 @@ yarn start
 - Handling Events
 - Updating the UI & Working with "State"
 - A Closer Look At Components & State
+
+## Lifting State Up
+- we can only communicate from parent to child and from child to parent
