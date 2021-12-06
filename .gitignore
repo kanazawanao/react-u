@@ -21,3 +21,5 @@
 /react-complete-guidenpm-debug.log*
 /react-complete-guideyarn-debug.log*
 /react-complete-guideyarn-error.log*
+
+/01-starting-project/node_modules
