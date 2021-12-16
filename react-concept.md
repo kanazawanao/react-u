@@ -30,7 +30,8 @@
 ## Creating a new React Project
 - https://github.com/facebook/create-react-app
 ```js
-npx create-react-app react-complete-guide
+yarn create react-app food-order
+// npx create-react-app react-complete-guide
 cd react-complete-guide
 yarn start
 ```
